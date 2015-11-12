@@ -322,7 +322,6 @@ table {
 }
 
 .blog-tile .title-plaque {
-  font-family: OpenSans-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: #ffffff;
   opacity: 0.6;
   position: relative;
@@ -368,7 +367,7 @@ table {
     letter-spacing: 0.3em;
   }
   .menu {
-    font-size: 70%;
+    font-size: 90%;
   }
   .heading {
     margin-top: -20px;
