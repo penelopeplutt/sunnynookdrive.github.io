@@ -322,6 +322,7 @@ table {
 }
 
 .blog-tile .title-plaque {
+  font-family: OpenSans-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: #ffffff;
   opacity: 0.6;
   position: relative;
