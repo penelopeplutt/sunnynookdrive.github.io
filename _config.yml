@@ -1,4 +1,4 @@
-permalink: none
+permalink: /:categories/:title
 markdown: rdiscount
 
 categories: parties, interviews, howto
