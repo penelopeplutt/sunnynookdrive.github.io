@@ -432,6 +432,7 @@ table {
   }
 .date {
   color:#d4d7d9;
+  letter-spacing: 0.05em;
   font-weight:normal;
   }
 
@@ -443,6 +444,11 @@ table {
 
 .blog-content p {
   margin-top: 20px;
+}
+
+.blog-content img {
+  max-width: 100%;
+  margin: 20px auto;
 }
 
 /* Columns
