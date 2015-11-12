@@ -46,7 +46,8 @@ prose:
       - name: "date"
         field:
           element: "text"
-          label: "Date"
+          label: "Custom Date"
+          value: "CURRENT_DATETIME"
       - name: "splash"
         field:
           element: "text"
