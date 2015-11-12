@@ -5,7 +5,9 @@ category: interviews
 splash: ""
 title: John Johnson
 date: "2015-11-12 01:24 -0800"
+tile: "media/vb-goodies.jpg"
 ---
+
 
 
 
