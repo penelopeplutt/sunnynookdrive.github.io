@@ -157,58 +157,6 @@ q:after {
   content:'';
   }
 
-/* Code Blocks & Pre */
-code,
-pre {
-  padding:5px;
-  font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
-  font-size:12px;
-  border-radius:3px;
-  }
-code {
-  padding:5px;
-  background:#f8f8f8;
-  border:1px solid #ddd;
-  }
-pre {
-  display:block;
-  padding:10px;
-  margin-bottom:10px;
-  font-size:12px;
-  word-break:break-all;
-  word-wrap:break-word;
-  white-space:pre;
-  white-space:pre-wrap;
-  background:#f8f8f8;
-  border:1px solid #ddd;
-  border-radius:3px;
-  }
-  pre code {
-    padding:0;
-    color:inherit;
-    background-color:transparent;
-    border:0;
-    }
-.pre-scrollable {
-  max-height:300px;
-  overflow-y:scroll;
-  }
-
-/* sub/superscripts */
-sup,
-sub {
-  height:0;
-  line-height:1;
-  vertical-align:baseline;
-  _vertical-align:bottom;
-  position:relative;
-  font-size:75%;
-  }
-sup {
-  top:.5em;
-  bottom:1em;
-  }
-
 label {
   display:block;
   }
@@ -396,31 +344,46 @@ table {
   }
 }
 @media screen and (max-width: 570px) and (orientation: landscape) {
+  .heading {
+    margin-top: -20px;
+  }
   div.blog-tile-grid {
     margin: 0 4%;
   }
-
   div.blog-tile {
     width: 30%;
     height: 125px;
   }
-
   .blog-tile div.title-plaque {
     top: 80px;
     font-size: 0.75em;
   }
 }
-@media screen and (max-height: 630px) and (orientation: portrait) {
+@media screen and (max-height: 740px) and (orientation: portrait) {
+  .header h1.title {
+    letter-spacing: 0.3em;
+  }
+  .menu {
+    font-size: 70%;
+  }
+  .heading {
+    margin-top: -20px;
+  }
+  .heading h2.blog-title-h {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
   div.blog-tile-grid {
     margin: 0 3%;
   }
   div.blog-tile {
-    width: 20%;
-    height: 75px;
+    width: 46%;
+    height: 100px;
   }
   .blog-tile div.title-plaque {
-    top: 24px;
+    top: 60px;
     font-size: 0.5em;
+    padding: 6px;
   }
 }
 
