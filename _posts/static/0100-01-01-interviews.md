@@ -1,6 +1,6 @@
 ---
 published: true
-layout: blogpage
+layout: section
 permalink: interviews/
 section: interviews
 title: Interviews
