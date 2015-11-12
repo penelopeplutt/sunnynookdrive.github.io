@@ -9,8 +9,7 @@ defaults:
       type: "posts"
     values:
       layout: "blog"
-defaultTile: media/sunnynook-default-splash.jpg
-
+      tile: "media/sunnynook-default-splash.jpg"
 
 prose:
   rooturl: '_posts'
@@ -53,10 +52,10 @@ prose:
       - name: "tile"
         field:
           element: "text"
-          label: "Tile Image"
+          label: "Tile Image 410w 288h or larger is ok"
           value: ""
       - name: "splash"
         field:
           element: "text"
-          label: "Splash Image"
+          label: "Splash Image 1200w 300h"
           value: ""
