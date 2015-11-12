@@ -2,7 +2,7 @@ permalink: /:categories/:title
 markdown: rdiscount
 
 categories: parties, interviews, howto
-defaultTile: &default_tile "media/sunnynook-default-splash.jpg"
+defaultTile: &default_tile "media/sunnynook-default-tile.jpg"
 defaults:
   -
     scope:
