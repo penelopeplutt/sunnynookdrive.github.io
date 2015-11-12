@@ -9,7 +9,7 @@ layout: default
         {% if item.tile != '' %}
         {% capture tileUrl %}{{site.baseurl}}/{{item.tile}}{% endcapture %}
         {% else %}
-        {% capture tileUrl %}{{site.baseurl}}/{{site.defaulttile}}{% endcapture %}
+        {% capture tileUrl %}{{site.baseurl}}/{{site.defaultTile}}{% endcapture %}
         {% endif %}
         <div class="blog-tile fl" style="background: url({{tileUrl}}) no-repeat; background-size: 100% 100%">
 

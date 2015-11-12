@@ -2,6 +2,7 @@ permalink: /:categories/:title
 markdown: rdiscount
 
 categories: parties, interviews, howto
+defaultTile: &default_tile "media/sunnynook-default-splash.jpg"
 defaults:
   -
     scope:
@@ -9,7 +10,7 @@ defaults:
       type: "posts"
     values:
       layout: "blog"
-      tile: "media/sunnynook-default-splash.jpg"
+      tile: *default_tile
 
 prose:
   rooturl: '_posts'
@@ -52,10 +53,10 @@ prose:
       - name: "tile"
         field:
           element: "text"
-          label: "Tile Image 410w 288h or larger is ok"
+          label: "Tile Image - 410pxw / 288pxh or larger is ok"
           value: ""
       - name: "splash"
         field:
           element: "text"
-          label: "Splash Image 1200w 300h"
+          label: "Splash Image - 1200pxw / 300pxh"
           value: ""
