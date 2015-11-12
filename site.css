@@ -305,13 +305,13 @@ table {
 }
 
 .blog-tile-grid {
-  margin: 0 11%;
+  margin: 0 2%;
 }
 
 .blog-tile {
-  width: 29%;
-  height: 175px;
-  margin: 0 1.5% 4.5% 1.5%;
+  width: 31.2%;
+  height: 260px;
+  margin: 0 1% 3% 1%;
   padding-bottom: 5%;
   background-color: #d4d7d9;
 }
@@ -323,45 +323,41 @@ table {
 
 .blog-tile .title-plaque {
   background: #ffffff;
-  opacity: 0.6;
+  opacity: 0.87;
   position: relative;
-  top: 120px;
-  max-width: 85%;
+  top: 160px;
+  max-width: 80%;
+  line-height: 20px;
   margin: 0 auto;
   padding: 10px;
   text-align: center;
+  font-weight: 500;
+  color: #000000;
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
   div.blog-tile-grid {
-    margin: 0 8%;
+    margin-top: -17px;
   }
   div.blog-tile {
-    width: 30%;
-    height: 150px;
+    height: 170px;
   }
   .blog-tile div.title-plaque {
     font-size: 0.77em;
-    padding: 7px;
-    top: 110px;
+    top: 95px;
   }
 }
 @media screen and (max-width: 570px) and (orientation: landscape) {
-  .heading {
-    margin-top: -20px;
-  }
-  div.blog-tile-grid {
-    margin: 0 4%;
-  }
   div.blog-tile {
-    width: 30%;
     height: 125px;
   }
   .blog-tile div.title-plaque {
-    top: 80px;
+    top: 65px;
     font-size: 0.75em;
+    line-height: 15px;
   }
 }
+/** iPhone <6 portrait **/
 @media screen and (max-height: 740px) and (orientation: portrait) {
   .header h1.title {
     letter-spacing: 0.3em;
@@ -377,16 +373,27 @@ table {
     margin-bottom: 10px;
   }
   div.blog-tile-grid {
-    margin: 0 3%;
+    margin: -30px 0;
   }
   div.blog-tile {
-    width: 46%;
+    width: 48%;
     height: 100px;
   }
   .blog-tile div.title-plaque {
-    top: 60px;
-    font-size: 0.5em;
+    top: 50px;
+    font-size: 0.6em;
+    line-height: 12px;
     padding: 6px;
+  }
+}
+/** iPad portrait **/
+@media screen and (min-width: 765px) and (orientation: portrait) {
+  div.blog-tile {
+    height: 200px;
+  }
+  .blog-tile div.title-plaque {
+    top: 135px;
+    line-height: 15px;
   }
 }
 
