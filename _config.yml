@@ -43,6 +43,10 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
       - name: "splash"
         field:
           element: "text"

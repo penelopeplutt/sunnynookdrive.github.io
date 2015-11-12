@@ -443,9 +443,15 @@ table {
 .blog-content {
   margin-top: 20px;
   line-height: 1.5em;
+  text-align: center;
 }
 
-.blog-content p, h2, h3 {
+.blog-content p {
+  text-align: left;
+  margin-top: 17px;
+}
+
+.blog-content h2, h3 {
   margin-top: 20px;
 }
 
