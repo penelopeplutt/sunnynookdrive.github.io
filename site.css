@@ -79,7 +79,7 @@ h1 {
   }
 
 h2 {
-  font-size:28px;
+  font-size:24px;
   margin-bottom:20px;
   line-height:1.25em;
   }
@@ -436,17 +436,28 @@ table {
   font-weight:normal;
   }
 
+.blog-title-h {
+  font-size: 28px;
+}
+
 .blog-content {
   margin-top: 20px;
   line-height: 1.5em;
-  font-family: sans-serif;
 }
 
-.blog-content p {
+.blog-content p, h2, h3 {
   margin-top: 20px;
 }
 
-.blog-content img {
+.blog-content h2, h3, h4, h5 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0;
+  font-size: 1.5em;
+}
+
+.blog-content img, iframe {
   max-width: 100%;
   margin: 20px auto;
 }
