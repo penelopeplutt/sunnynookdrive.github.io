@@ -318,6 +318,7 @@ table {
 
 .blog-tile a {
   height: 100%;
+  display: block;
 }
 
 .blog-tile .title-plaque {
