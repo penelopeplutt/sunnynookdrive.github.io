@@ -4,6 +4,8 @@ published: true
 category: parties
 splash: ""
 title: "Kailee's birthday"
+date: August 31 1987
 ---
+
 
 It was a really crazy party
