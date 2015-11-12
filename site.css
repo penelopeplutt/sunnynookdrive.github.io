@@ -415,7 +415,7 @@ table {
     margin: 0 3%;
   }
   div.blog-tile {
-    width: 30%;
+    width: 20%;
     height: 75px;
   }
   .blog-tile div.title-plaque {
@@ -441,7 +441,7 @@ table {
 }
 
 .blog-content {
-  margin-top: 20px;
+  margin: 20px 0 60px 0;
   line-height: 1.5em;
   text-align: center;
 }
