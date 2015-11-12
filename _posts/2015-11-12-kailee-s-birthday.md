@@ -4,7 +4,7 @@ published: true
 category: parties
 splash: ""
 title: "Kailee's birthday"
-date: August 31 1987
+date: August 30 1987
 ---
 
 
