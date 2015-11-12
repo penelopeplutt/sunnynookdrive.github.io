@@ -1,6 +1,10 @@
 ---
+layout: blog
 published: true
 category: parties
+splash: ""
+title: Easter Party
 ---
 
-Hi Hi Hi
+TA DA TA DA
+TA DA TA DADD
