@@ -323,7 +323,11 @@ table {
 
 .blog-tile .title-plaque {
   background: #ffffff;
-  opacity: 0.87;
+  opacity: 0.75;
+  -webkit-transition:opacity 500ms;
+  -moz-transition:opacity 500ms;
+  -o-transition:opacity 500ms;
+  transition:opacity 500ms;
   position: relative;
   top: 160px;
   max-width: 80%;
@@ -334,6 +338,10 @@ table {
   font-weight: 600;
   letter-spacing: 1px;
   color: #000000;
+}
+
+.blog-tile:hover .title-plaque {
+  opacity: 0.91;
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
@@ -423,6 +431,7 @@ table {
 .blog-content p {
   text-align: left;
   margin-top: 17px;
+  color: #415056;
 }
 
 .blog-content h2, h3 {
