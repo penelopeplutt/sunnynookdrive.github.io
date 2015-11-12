@@ -13,8 +13,7 @@ defaults:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'https://sunnynookdrive.com'
-  relativeLinks: 'https://sunnynookdrive.com/links.jsonp'
+  siteurl: 'http://sunnynookdrive.github.io'
   media: 'media'
   metadata:
     _posts:
