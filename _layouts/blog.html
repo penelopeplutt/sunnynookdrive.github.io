@@ -17,10 +17,11 @@ section: blog
 
 <div class='listing col6 pad4h margin3'>
   <div class='heading all-caps'>
-    <h2>{{page.title}}</h2><span class='date'>{{page.date | date:"%b %d, %Y"}}</span>
+    <h2>{{page.title}}</h2>
+    <span class='date'>{{page.date | date:"%b %d, %Y"}}</span>
   </div>
 
-  <div class='prose'>
+  <div class='prose blog-content'>
     {{content}}
   </div>
 </div>

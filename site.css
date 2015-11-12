@@ -435,6 +435,16 @@ table {
   font-weight:normal;
   }
 
+.blog-content {
+  margin-top: 20px;
+  line-height: 1.5em;
+  font-family: sans-serif;
+}
+
+.blog-content p {
+  margin-top: 20px;
+}
+
 /* Columns
 ------------------------------------------------------- */
 .col0    { float:left; width:04.1666%; }
