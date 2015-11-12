@@ -3,7 +3,7 @@ layout: default
 section: blog
 ---
 
-{% if page.splash %}
+{% if page.splash != '' %}
   {% if page.splash contains 'http' %}
     {% capture url %}{{page.splash}}{% endcapture %}
   {% else %}

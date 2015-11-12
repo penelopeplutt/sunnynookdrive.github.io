@@ -48,4 +48,4 @@ prose:
         field:
           element: "text"
           label: "Splash image"
-          value: "null"
+          value: ""
