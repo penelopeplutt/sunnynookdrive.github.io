@@ -3,9 +3,10 @@ layout: blog
 published: true
 category: parties
 date: "2015-11-12 01:14 -0800"
-splash: 38144.jpg
+splash: media/38144.jpg
 title: "Today's Party"
 ---
+
 
 
 Here is the quote:
