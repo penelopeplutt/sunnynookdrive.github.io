@@ -5,7 +5,9 @@ category: parties
 date: "2015-11-12 01:14 -0800"
 splash: media/rubberb.jpg
 title: "Today's Party"
+tile: media/rubberb.jpg
 ---
+
 
 
 Here is the quote:
