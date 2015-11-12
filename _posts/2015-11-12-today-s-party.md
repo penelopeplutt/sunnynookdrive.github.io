@@ -3,11 +3,10 @@ layout: blog
 published: true
 category: parties
 date: "2015-11-12 01:14 -0800"
-splash: media/rubberb.jpg
+splash: ""
 title: "Today's Party"
-tile: media/rubberb.jpg
+tile: "media/vb-cinco.jpg"
 ---
-
 
 
 Here is the quote:
