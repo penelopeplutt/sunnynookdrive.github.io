@@ -2,9 +2,10 @@
 layout: blog
 published: true
 category: parties
-splash: "null"
-title: Easter Party
+splash: ""
+title: Thanksgiving Pre Party
 ---
+
 
 
 
