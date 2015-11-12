@@ -9,6 +9,8 @@ defaults:
       type: "posts"
     values:
       layout: "blog"
+defaultTile: media/sunnynook-default-splash.jpg
+
 
 prose:
   rooturl: '_posts'
@@ -48,8 +50,13 @@ prose:
           element: "text"
           label: "Date (lenient format, Aug 30 1987 etc works)"
           value: "CURRENT_DATETIME"
+      - name: "tile"
+        field:
+          element: "text"
+          label: "Tile Image"
+          value: ""
       - name: "splash"
         field:
           element: "text"
-          label: "Splash image"
+          label: "Splash Image"
           value: ""

@@ -313,15 +313,11 @@ table {
   height: 260px;
   margin: 0 1% 3% 1%;
   padding-bottom: 5%;
-  background-color: #d4d7d9;
-}
-
-.blog-tile a {
-  height: 100%;
-  display: block;
+  background-color: #96b9c5;
 }
 
 .blog-tile .title-plaque {
+  z-index: 400;
   background: #ffffff;
   opacity: 0.75;
   -webkit-transition:opacity 300ms;
@@ -338,6 +334,11 @@ table {
   font-weight: 600;
   letter-spacing: 1px;
   color: #000000;
+}
+
+.blog-tile a {
+  height: 130%;
+  display: block;
 }
 
 .blog-tile:hover .title-plaque {
@@ -369,6 +370,7 @@ table {
 /** iPhone <6 portrait **/
 @media screen and (max-height: 740px) and (orientation: portrait) {
   .header h1.title {
+    font-size: 1.9em;
     letter-spacing: 0.3em;
   }
   .menu {

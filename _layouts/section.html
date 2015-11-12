@@ -6,8 +6,13 @@ layout: default
     <div class="blog-tile-grid">
         {% for item in site.categories[page.section] limit:1000 %}
 
-        {% capture splashurl %}{{site.baseurl}}/{{item.splash}}{% endcapture %}
-        <div class="blog-tile fl" style="background-image:url({{splashurl}})">
+        {% if item.tile != '' %}
+        {% capture tileUrl %}{{site.baseurl}}/{{item.tile}}{% endcapture %}
+        {% else %}
+        {% capture tileUrl %}{{site.baseurl}}/{{site.defaultTile}}{% endcapture %}
+        {% endif %}
+        <div class="blog-tile fl" style="background: url({{tileUrl}}) no-repeat; background-size: 100% 100%">
+
             <a class="item" href="{{site.baseurl}}{{item.url}}">
                 <div class="title-plaque">
                     <span class="title-text">{{item.title}}</span>
