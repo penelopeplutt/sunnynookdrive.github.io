@@ -9,7 +9,6 @@ defaults:
       type: "posts"
     values:
       layout: "blog"
-      splash: null
 
 prose:
   rooturl: '_posts'
