@@ -297,7 +297,6 @@ table {
   .menu a {
     margin:0 10px 0 10px;
     line-height: 1.67;
-    height: 100%;
     }
 
 .all-caps {
@@ -315,6 +314,10 @@ table {
   margin: 0 1.5% 4.5% 1.5%;
   padding-bottom: 5%;
   background-color: #d4d7d9;
+}
+
+.blog-tile a {
+  height: 100%;
 }
 
 .blog-tile .title-plaque {
