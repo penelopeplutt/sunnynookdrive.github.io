@@ -1,11 +1,12 @@
 ---
 layout: blog
 published: true
-category: parties
-date: major dumb
+category: howto
+date: Nov 9 2010
 splash: ""
 title: Blank Blank
 ---
+
 
 
 ## WHAT UP
