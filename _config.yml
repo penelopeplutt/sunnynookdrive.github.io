@@ -12,6 +12,9 @@ defaults:
       layout: "blog"
       tile: *default_tile
 
+sass:
+  style: compressed
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://sunnynookdrive.github.io'
