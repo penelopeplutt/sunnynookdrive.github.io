@@ -8,4 +8,9 @@ splash: ""
 title: LBJ
 ---
 
+
 ## Interview with LBJ
+
+Weston: So Lyndon, how old were you when you first hit a home run?
+
+LBJ: 8 years old
