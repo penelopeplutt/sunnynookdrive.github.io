@@ -11,4 +11,7 @@ tile: media/weston.png
 
 
 
+
 Weston Westenborg shows you how to con people like he got conned.
+
+Here is how he did it
