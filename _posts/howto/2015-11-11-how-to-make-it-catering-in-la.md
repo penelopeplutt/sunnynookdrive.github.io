@@ -9,4 +9,9 @@ tile: "media/vb-garden.jpg"
 ---
 
 
+
 Chris Bramante shows you the ins and outs of the catering industry.
+
+Brilliant. Funny. Informative.
+
+
